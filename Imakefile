@@ -26,7 +26,7 @@ UnsharedLibReferences(XPM,Xpm,$(XPMSRC))
            CUTE = -DSEND_MAIL	/* cute feature :-) */
 
         DEPLIBS = XawClientDepLibs XpmDepLib
-LOCAL_LIBRARIES = XawClientLibs XpmLib MathLibrary
+LOCAL_LIBRARIES = XawClientLibs XpmLib
   EXTRA_DEFINES = -DUSE_X11 -DXONIXDIR=\"$(XONIXDIR)\" $(CUTE)
 /*    CDEBUGFLAGS = DebuggableCDebugFlags */
 
