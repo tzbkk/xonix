@@ -1062,7 +1062,7 @@ DisplayHighScore(void)
 
   if((high = freopen(PATH_HIGHSCORE, "w",high)) == NULL) {
     fprintf(stderr, "xonix: cannot reopen high score file\n");
-    free(fullname);
+    /* free(fullname); */
     gameover_pending = 0;
     return;
   }
